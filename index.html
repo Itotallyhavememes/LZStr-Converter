@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>Compressed LZS Convert</title>
+    <script src="js/LZString.js"></script>
+    <script src="js/anime.iife.js"></script>
+    <script type="module" src="js/index.js"></script>
+
+    <script>
+        const {animate, text, stagger, utils, createScope} = anime;
+    </script>
+    <script type="module" src="js/stylizer.js"></script>
+</head>
+<body>
+
+<p class="text-xl">Compressed LZString Converter (Base64)</p>
+
+<textarea id="compressedInput" rows="12" cols="60"
+          placeholder="Enter LZString-compressed Base64 here..." spellcheck="false"></textarea><br>
+<button id="decompButton">Decompress</button>
+
+<br><br><br>
+<p class="text-l">Decompressed Output:</p>
+
+<br><br>
+<textarea id="output" rows="12" cols="60" spellcheck="false"></textarea>
+<br>
+<button id="compButton">Recompress</button>
+
+<br><br><br>
+<p class="text-l">Recompresed Output:</p>
+
+<br><br>
+<textarea id="routput" rows="12" cols="60" spellcheck="false"></textarea>
+
+</body>
+</html>

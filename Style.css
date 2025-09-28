@@ -1,0 +1,48 @@
+﻿body {
+    background-color: black;
+}
+
+:root {
+    font-family: ProggyCleanTT, serif;
+    color: white;
+    text-align: center;
+}
+
+.split-char {
+    color: white;
+    /*background-color: #2b2b2b;*/
+    /*outline: 1px solid darkslategray;*/
+    /*border-radius: .25rem;*/
+}
+
+.text-xl {
+    font-size: xx-large;
+}
+
+.text-l {
+    font-size: x-large;
+    /*background-color: #2b2b2b;*/
+    padding: 3px;
+    display: inline;
+}
+
+button {
+    font-family: ProggyCleanTT, serif;
+    font-size: large;
+    border-radius: .25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7a7a7a;
+    padding: 5px 10px;
+    background-color: #565656;
+    color: white;
+}
+
+textarea {
+    font-family: ProggyCleanTT, serif;
+    font-size: large;
+    background-color: #2b2b2b;
+    border-color: #4d4d4d;
+    border-radius: 5px;
+    color: white;
+}
