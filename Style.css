@@ -1,6 +1,10 @@
 ﻿@font-face {
-    font-family: 'ProggyClean';
-    src: url('fonts/ProggyClean.ttf') format('truetype');
+    font-family: 'ProggyCleanTT';
+    src: url('fonts/ProggyCleanTT.woff2') format('woff2'),
+    url('fonts/ProggyCleanTT.woff') format('woff'), url('fonts/ProggyClean.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 body {
@@ -8,7 +12,7 @@ body {
 }
 
 :root {
-    font-family: ProggyClean, serif;
+    font-family: ProggyCleanTT, serif;
     color: white;
     text-align: center;
 }
