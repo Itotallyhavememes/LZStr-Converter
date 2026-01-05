@@ -1,9 +1,14 @@
-﻿body {
+﻿@font-face {
+    font-family: 'ProggyClean';
+    src: url('fonts/ProggyClean.ttf') format('truetype');
+}
+
+body {
     background-color: black;
 }
 
 :root {
-    font-family: ProggyCleanTT, serif;
+    font-family: ProggyClean, serif;
     color: white;
     text-align: center;
 }
